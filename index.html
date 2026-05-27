@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Class Connect - Login</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="login-container">
+    <h1>Class Connect</h1>
+
+    <div class="flags">
+        <img src="img/es.png" onclick="idiomaES()" alt="Español">
+        <img src="img/en.png" onclick="idiomaEN()" alt="English">
+    </div>
+
+    <form>
+        <label id="userLabel">Usuario</label>
+        <input type="text" placeholder="Introduce tu usuario" required>
+
+        <label id="passLabel">Contraseña</label>
+        <input type="password" placeholder="Introduce tu contraseña" required>
+
+        <button type="submit" id="loginBtn">Iniciar sesión</button>
+    </form>
+
+  <p class="register-text">
+    <span id="noAccount">¿No tienes cuenta?</span>
+    <a href="register.html" id="registerLink">Regístrate</a>
+</p>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
